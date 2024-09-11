@@ -79,3 +79,5 @@ serve -s build
  git add .
  git commit -m "comit message"
  git push origin main
+## Netlify host link
+### https://myreactprojectsaj.netlify.app/
