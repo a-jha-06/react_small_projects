@@ -1,0 +1,41 @@
+/* About.css */
+.container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.heading {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: decimal;
+    padding: 10px 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.list-item {
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #007BFF; /* Blue color for highlighted text */
+    font-weight: bold;
+}
+
+.section-background {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

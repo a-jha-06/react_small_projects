@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS for c
 
 function Carousel() {
     return (
-        <div className="container mt-5">
+        <div className="slideshow mt-5">
             <h2 className="text-center mb-4">Certifications</h2>
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
