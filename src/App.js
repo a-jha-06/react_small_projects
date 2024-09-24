@@ -6,9 +6,7 @@ import Projects from '../src/pages/project'; // Create this component
 import Certifications from '../src/pages/certifications'; // Create this component
 import HeroBanner from './components/banner/banner';
 import Footer from './components/footer/footer';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Skills from './components/Skills/Skills';
+
 
 function App() {
   return (
