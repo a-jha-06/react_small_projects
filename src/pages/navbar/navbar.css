@@ -80,7 +80,7 @@ body {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 50px; /* Adjust based on your navbar height */
+        top: 70px; /* Adjust based on your navbar height */
         left: 0;
         right: 0;
         background-color: #8697C4;
