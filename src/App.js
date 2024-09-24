@@ -6,28 +6,31 @@ import Projects from '../src/pages/project'; // Create this component
 import Certifications from '../src/pages/certifications'; // Create this component
 import HeroBanner from './components/banner/banner';
 import Footer from './components/footer/footer';
+import Header from './components/header/header';
+import About from './components/about/about';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
     <div>'
       <Router>
         <div className='container'>
-        <Navbar />
-        <HeroBanner /></div>
-        
+          <Navbar />
+          <HeroBanner /></div>
+
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/certifications" element={<Certifications />} />
-        
+
         </Routes>
         <div>
           <Footer />
         </div>
       </Router>
-     
+
     </div>
-    
+
   );
 }
 

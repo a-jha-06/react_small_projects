@@ -18,12 +18,12 @@ function Navbar() {
                 <div className={`menu-toggle ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
-
+                  
                 </div>
-                <div><Link to="/home"><img src={Aj} className="logo" alt='logo' /></Link></div>
+                <div><Link to="/"><img src={Aj} className="logo" alt='logo' /></Link></div>
 
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-
+                  
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/certifications">Certifications</Link></li>
 
