@@ -3,9 +3,12 @@
     height: 250px;
     padding: 40px;
 }
+.card:hover{
+  transform: translateY(-5px);
+}
 
 .button {
-  background-color: lightblue;
+  background-color:#ADBBDA;;
   border: none;
   align-items: center;
   padding: 15px 32px;
@@ -15,6 +18,8 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .heading {
@@ -23,4 +28,11 @@
     text-align: center;
     margin: 20px;
     font-weight: bold;
+}
+
+.card-title{
+  font-style: italic;
+}
+.card{
+  color: #8697c4;
 }

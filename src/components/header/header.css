@@ -1,26 +1,19 @@
 /* Container.css */
 .header {
-  /*  background-color:  lightcyan !important;  background for the container */
+ background-color: #ADBBDA;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 100%;
-    font-family: 'Arial', sans-serif;
+  font-family: "Times New Roman", Times, serif;
     text-align: center; /* Center align the text */
 }
 
-.header img {
-    width: 100%; /* Make the image responsive */
-    max-width: 600px; /* Limit the maximum width of the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners for the image */
-    margin-bottom: 20px; /* Space below the image */
-}
 
 .header p {
     font-size: 16px;
-    color: #333; /* Dark text color for readability */
+    color: white; /* Dark text color for readability */
     line-height: 1.6; /* Increase line height for better readability */
     margin: 0; /* Remove default margins */
 }

@@ -9,37 +9,43 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS for c
 
 function Carousel() {
     return (
-        <div className="slideshow mt-5">
-            <h2 className="heading">Certifications</h2>
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="5000">
-                        <img src={frontend} className="d-block w-100" alt="Frontend Developer" />
+        <div className='container'>
+
+            <div className="slideshow mt-5">
+                <h2 className="heading">Certifications</h2>
+                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active" data-bs-interval="5000">
+                            <img src={frontend} className="d-block w-100" alt="Frontend Developer" />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={reactbasic} className="d-block w-100" alt="React Basic" />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={cssbasic} className="d-block w-100" alt="CSS Basic" />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={problem} className="d-block w-100" alt="Problem Solving" />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={fullstack} className="d-block w-100" alt="Fullstack Developer" />
+                        </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img src={reactbasic} className="d-block w-100" alt="React Basic" />
-                    </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img src={cssbasic} className="d-block w-100" alt="CSS Basic" />
-                    </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img src={problem} className="d-block w-100" alt="Problem Solving" />
-                    </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img src={fullstack} className="d-block w-100" alt="Fullstack Developer" />
-                    </div>
+                    {/* Carousel controls */}
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
-                {/* Carousel controls */}
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
+
+
+
     );
 }
 

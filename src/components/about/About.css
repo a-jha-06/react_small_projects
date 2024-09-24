@@ -1,17 +1,18 @@
 /* About.css */
 .container {
-    background-color: lightblue;
-    padding: 20px;
+    background-color:#EDE8F5;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     width: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .heading {
+    font-family: "Times New Roman", Times, serif;
     font-size: 28px;
-    color: #333;
+    color: #8697c4;
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
@@ -34,7 +35,7 @@
 }
 
 .section-background {
-    background-color: aliceblue;
+    background-color: #EDE8F5;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -5,36 +5,49 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .navbar {
     background-color: #333;
     color: white;
     padding: 15px 20px;
+
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ADBBDA;
+    width: 100%;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    text-decoration: none;
+    height:100px;
+    width: 100px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
+   
 }
 
 .nav-links li {
     margin-left: 20px;
+   
 }
 
 .nav-links a {
+    font-size: 30px;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -43,7 +56,7 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: #555;
+   background-color: #EDE8F5;
 }
 
 /* Responsive Styles */
@@ -51,11 +64,12 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    padding: 5px;
 }
 
 .bar {
     height: 3px;
-    width: 25px;
+    width: 20px;
     background-color: white;
     margin: 3px 0;
     transition: all 0.3s ease;
@@ -66,10 +80,10 @@ body {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px; /* Adjust based on your navbar height */
+        top: 50px; /* Adjust based on your navbar height */
         left: 0;
         right: 0;
-        background-color: #333;
+        background-color: #8697C4;
     }
 
     .nav-links.active {
@@ -86,5 +100,9 @@ body {
 
     .nav-links li {
         margin: 10px 0;
+       
+    }
+    .nav-links a {
+        font-size: 20px;
     }
 }

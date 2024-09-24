@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import './navbar.css'; // Import the CSS file for styles
+import Aj from "../../images/Aj logo.png"
+
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,24 +12,28 @@ function Navbar() {
     };
 
     return (
-        <nav className="navbar container">
-            <div className="navbar-container">
-                <Link to="/home"><div className="logo">My Website</div></Link>
+        <nav className="navbar container" >
+            <div className="navbar-container" >
+
                 <div className={`menu-toggle ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
-                    <span className="bar"></span>
+
                 </div>
+                <div><Link to="/home"><img src={Aj} className="logo" alt='logo' /></Link></div>
+
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
 
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/certifications">Certifications</Link></li>
-                    <li><Link to="/contact">Contact Info</Link></li>
+
                 </ul>
             </div>
         </nav>
 
-        
+
+
+
     );
 }
 
