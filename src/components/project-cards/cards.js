@@ -5,23 +5,15 @@ import Bh from '../../images/logo.jpg';
 import IND from '../../images/indivisual logo.png';
 import EG from '../../images/eglogo.755bcfe6.png';
 import Mas from '../../images/masarratlogo.55f83788.png';
-<<<<<<< HEAD
-import './cards.css';
-
-=======
 import logo from '../../images/LOGO.png'
 import './cards.css';
 
 
->>>>>>> c8acfea (first commit)
 function Cards() {
     return (
         <div className='container'>
             <h2 className='heading'>Projects</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4">
-<<<<<<< HEAD
-
-=======
                 <div class="col">
 
                     <div class="card">
@@ -37,7 +29,6 @@ function Cards() {
                         </div>
                     </div>
                 </div>
->>>>>>> c8acfea (first commit)
                 <div class="col">
 
                     <div class="card">

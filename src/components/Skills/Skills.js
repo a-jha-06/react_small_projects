@@ -5,10 +5,7 @@ function Skills() {
     const skills = [
         { name: 'React.js', icon: '⚛️' },
         { name: 'Next.js', icon: '⚛️' },
-<<<<<<< HEAD
-=======
         { name: 'Shopify', icon: '🛍️' },
->>>>>>> c8acfea (first commit)
         { name: 'HTML', icon: '🌐' },
         { name: 'CSS', icon: '🎨' },
         { name: 'JavaScript', icon: '💻' },
