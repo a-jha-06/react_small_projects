@@ -6,23 +6,6 @@ function About() {
         <div className="section-background">
 
             <h2 className="heading">Professional Summary</h2>
-<<<<<<< HEAD
-            <ol className="list">
-                <li className="list-item">
-                    At <span className="highlight">Markrich Apparel</span>, my role as Senior Associate Tech is to bring the cutting-edge
-                    of retail technology to life, integrating Shopify's robust features with meticulous
-                    data analysis. Our team's innovations are reshaping the e-commerce landscape, driven
-                    by my background in computer engineering
-                    and a keen eye for operational efficiency.
-                </li>
-                <li className="list-item">
-                    Previously, as aFrontend Developer at  <span className="highlight">Sublimis Technologies </span>, I forged a strong link
-                    between design and backend development, contributing to dynamic e-commerce solutions.
-                    This role capitalized on my technical skills and operational insight, ensuring
-                    seamless user experiences and high-performing platforms that align with SEO best practices.
-                </li>
-            </ol>
-=======
             <div className="list">
                 <p className="list-item">
                     I am a Lead Shopify Developer with 3.5 years of corporate experience, specializing in frontend development using React.js, Next.js, JavaScript, and Shopify. With a strong foundation in e-commerce website development, I have successfully built and optimized custom Shopify themes, integrated third-party APIs, and enhanced user experiences to drive conversions.
@@ -32,7 +15,6 @@ function About() {
                     Currently working at Titbit Foods, I am seeking opportunities to leverage my skills in Shopify development, frontend technologies, and e-commerce innovation.
                 </p>
             </div>
->>>>>>> c8acfea (first commit)
 
         </div>
     );
