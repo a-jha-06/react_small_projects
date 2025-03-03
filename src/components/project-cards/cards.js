@@ -5,14 +5,39 @@ import Bh from '../../images/logo.jpg';
 import IND from '../../images/indivisual logo.png';
 import EG from '../../images/eglogo.755bcfe6.png';
 import Mas from '../../images/masarratlogo.55f83788.png';
+<<<<<<< HEAD
 import './cards.css';
 
+=======
+import logo from '../../images/LOGO.png'
+import './cards.css';
+
+
+>>>>>>> c8acfea (first commit)
 function Cards() {
     return (
         <div className='container'>
             <h2 className='heading'>Projects</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4">
+<<<<<<< HEAD
 
+=======
+                <div class="col">
+
+                    <div class="card">
+                        <img src={logo} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Saucy Affair</h5>
+                            <p class="card-text">Saucy Affair is an online food brand specializing in premium ready-to-cook sauces,
+                                dips, and spreads. As the Lead Shopify Developer, my role involved designing, developing, and
+                                optimizing the Shopify store to ensure a seamless shopping experience.
+                                The focus was on enhancing user engagement, improving site navigation for effortless product discovery,
+                                and implementing features to drive conversions.</p>
+                            <a href='https://saucyaffair.in/' class="button">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> c8acfea (first commit)
                 <div class="col">
 
                     <div class="card">
