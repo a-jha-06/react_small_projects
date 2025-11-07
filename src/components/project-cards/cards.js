@@ -18,7 +18,7 @@ function Cards() {
         <div class="col">
 
                     <div class="card">
-                        <img src='https://cdn.shopify.com/s/files/1/0613/1400/7297/files/Palmonas_Logo_Open_File-02.webp?v=1760074313/>
+                        
                         <div class="card-body">
                             <h5 class="card-title">Palmonas</h5>
                             <p class="card-text">Palmonas is an Indian jewelry brand specializing in demi-fine jewelry,
