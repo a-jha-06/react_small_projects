@@ -5,7 +5,11 @@ function Header() {
   return (
     <div className='Header'>
       <p>
-        Results-driven Lead Shopify Developer with 3.5 years of corporate experience, including 2 years in frontend development specializing in React.js, Next.js, HTML5, CSS3, JavaScript, and Shopify. Adept at developing custom Shopify themes, integrating third-party apps and APIs, and optimizing e-commerce websites for a seamless user experience. Strong problem-solving skills, a keen eye for modern UI/UX design, and the ability to collaborate with cross-functional teams to deliver high-impact digital solutions. Experienced in Shopify API integrations, version control (Git), performance optimization, and SEO strategies. Seeking opportunities to leverage technical expertise and drive business growth through innovative web development solutions.
+        I specialize in building high-performing, brand-aligned Shopify storefronts with deep Liquid customization, scalable architecture, and seamless integrations. Beyond crafting reusable sections and optimized checkout flows (Razorpay, GoKwik, Simpl), I streamline operations using tools like Matrixify and Flits, and manage Shopify POS integrations with Ginesys for unified commerce.
+
+💡 Recently, I’ve expanded into AI-powered tools development, creating solutions that automate workflows and boost e-commerce performance. As a trusted technical consultant, I advise on best practices, performance strategies, and scalable growth solutions.
+
+Let’s connect if you're passionate about building smart, seamless, and scalable digital commerce experiences!
       </p>
     </div>
   );
