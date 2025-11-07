@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import bannerImage from '../../images/Cover.png'; // Replace with your image path
+import bannerImage from '../../images/Coverimage.png'; // Replace with your image path
 
 function HeroBanner() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
